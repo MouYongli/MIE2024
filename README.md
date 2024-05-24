@@ -47,3 +47,7 @@ To run the PoC app locally, follow these steps:
     ```
     For example, use ```--model gpt-4 --patient 1 --entity 1``` to create the documentation for entity_1 of patient_1 using the OpenAI API with gpt-4. To use other OpenAI 
     endpoints or local models, please add the model to ```model_config.py``` or use one of the existing models in there.
+
+## Architecture of our Tool:
+
+![image](https://github.com/MouYongli/MIE2024/assets/56689318/0e57660f-43dc-4a6c-9c9a-ab17bbccd72d)
