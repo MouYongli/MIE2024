@@ -1,5 +1,7 @@
 # PoC Tool for Tumor Documentation of German Pathology Reports
 
+The accompanying paper is available [here](https://publications.rwth-aachen.de/record/1024522/files/1024522.pdf).
+
 This repository demonstrates how pathology reports at the Center for Integrated Oncology Aachen can be structured using either closed-source models such as GPT-4 or open-source models such as Mixtral-8x7b-Instruct. The input has to be a set of pathology reports describing a biopsy of a breast-cancer patient and the output will be a JSON object containing the extracted features as well as a CSV file that can be imported into the proprietary tumor documentation system Onkostar. The main goals of this tools are:
 - to demonstrate how complex NLP tasks can be performed via prompt engineering of SOTA models to determine the correct values needed for tumor documentation
 - to show how an AI-based tool could be integrated into the workflow at the Cancer Registry CIO Aachen
